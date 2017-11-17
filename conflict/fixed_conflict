@@ -2,7 +2,7 @@ git add .
 git commit -m "some"
 #git push -u origin master #conflict
 
-git chckout -b feature1 #git branch & checkout origin1 (master, feature1: HEAD)
+git chckout -b feature1 #git branch & checkout feature1 (master, feature1: HEAD)
 git merge origin/master 
 git add .
 git commit -m "Add feature1 origin/master"
