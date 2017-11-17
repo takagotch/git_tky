@@ -1,0 +1,9 @@
+git config --global user.name "takagotch"
+git config --global user.email "example@example.com"
+#cat ~/.gitconfig
+
+ssh-keygen -t rsa -C "example@example.com"
+#cat ~/.ssh/id_rsa
+
+#status
+ssh -T git@github.com
