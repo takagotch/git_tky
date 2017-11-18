@@ -1,0 +1,25 @@
+#git checkout -b work hello
+#git checkout -b feature1 origin/master
+#git checkout -b feature1 origin/feature1
+git checkout -b feature1 # .
+git push -u origin feature1
+
+git branch -a #ls -A
+git log --graph #ls -R
+git diff #cat
+
+
+git clone git@github.com:takagotch/hellow.git
+git remote add tky git@github.com:tky/hello.git
+git fetch tky
+
+git checkout feature1
+git merge tky/work #git merge --no-ff tky/work, vi :wq! 
+git branch -D feature1
+
+
+#git commit --amend   #git rebase -i HEAD~2 vi pickup --> fixup :wq!
+
+
+
+
