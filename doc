@@ -39,8 +39,8 @@ git push -u origin feature
 # master:        repositoryBranch_name
 
 #origin            master
-#preg_match        work
-#preg_match/master work
+#preg_match        feature
+#preg_match/master feature
 #git remote add preg_match               git@github.com:takagotch/preg_match.git
 #               Remote_repositoryURLname Remote_repositoryURL
 
