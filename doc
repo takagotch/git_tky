@@ -44,7 +44,7 @@ git push -u origin feature
 #git remote add preg_match               git@github.com:takagotch/preg_match.git
 #               Remote_repositoryURLname Remote_repositoryURL
 #
-#git remote delete preg_match
+#git remote remove preg_match
 #
 
 git fetch #origin #master
