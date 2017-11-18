@@ -35,8 +35,15 @@ git add feature
 git commit -m "feature"
 git push -u origin feature
 
-#origin: repositoryURL_name
-#master: branch_name
+# origin: Remote_repositoryURL_name
+# master:        repositoryBranch_name
+
+#origin            master
+#preg_match        work
+#preg_match/master work
+#git remote add preg_match               git@github.com:takagotch/preg_match.git
+#               Remote_repositoryURLname Remote_repositoryURL
+
 git fetch #origin #master
 git merge #origin #master
 git push -u #origin #master #-u: first push
@@ -44,6 +51,13 @@ git push #origin #master
 
 git remote add tky git@github.com:gitflow.git
 git push -u tky master
+
+git rebase
+
+git log --oneline #ls -A
+git log --graph   #ls -R
+
+
 *
 */
 
