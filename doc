@@ -27,4 +27,26 @@ git merge tky/work #git merge --no-ff tky/work, vi :wq!
 
 
 
+/*
+*
+git checkout -b feature
+touch feature
+git add feature
+git commit -m "feature"
+git push -u origin feature
+
+#origin: repositoryURL_name
+#master: branch_name
+git fetch #origin #master
+git merge #origin #master
+git push -u #origin #master #-u: first push
+git push #origin #master
+
+git remote add tky git@github.com:gitflow.git
+git push -u tky master
+*
+*/
+
+
+
 
