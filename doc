@@ -1,3 +1,7 @@
+#get started
+rm -rf git_tky
+git clone git@github.com:takagotch/git_tky.git
+
 #git checkout -b work hello
 #git checkout -b feature1 origin/master
 #git checkout -b feature1 origin/feature1
