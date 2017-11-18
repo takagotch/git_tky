@@ -15,7 +15,8 @@ git fetch tky
 
 git checkout feature1
 git merge tky/work #git merge --no-ff tky/work, vi :wq! 
-git branch -D feature1
+#git checkout feature1 
+#git branch -D feature1
 
 
 #git commit --amend   #git rebase -i HEAD~2 vi pickup --> fixup :wq!
