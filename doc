@@ -22,6 +22,16 @@ git merge tky/work #git merge --no-ff tky/work, vi :wq!
 #git checkout feature1 
 #git branch -D feature1
 
+/*
+git checkout -b feature
+vi app/models/sales.rb
+git add .
+git commit -m "app/models/sales.rb"
+git push -u origin feature
+git checkout master
+#git fetch origin feature
+git merge origin feature
+*/
 
 #git commit --amend   #git rebase -i HEAD~2 vi pickup --> fixup :wq!
 
