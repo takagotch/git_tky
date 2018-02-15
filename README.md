@@ -15,3 +15,4 @@ Shift + Insert
 https://secure.sakura.ad.jp/vps/?_ga=2.122438155.1888965353.1499536385-1422795089.1498715423&_bdld=2Itp8q.lPOpEap#/login
 
 
+# https://secure.sakura.ad.jp/auth/login
