@@ -1,7 +1,10 @@
- .gitignore
+### git_tky
+
+.gitignore
 https://help.github.com/articles/ignoring-files/
 
 https://github.com/git
+
 ---
 
 #paste
