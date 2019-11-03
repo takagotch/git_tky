@@ -1,0 +1,11 @@
+# git pull
+git fetch                # :latest origin/master
+git checkout master
+git merge orgin/master   # :latest master
+
+## git stash
+git stash save
+git status
+git stash list
+
+
