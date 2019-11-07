@@ -1,7 +1,11 @@
 # git pull
 git fetch                # :latest origin/master
 git checkout master
+  # vi file
+  # git stash save; or git add; git commit -m ""
+  #
 git merge orgin/master   # :latest master
+  # git add .; git commit -m ""
 
 ## git stash
 git stash save
